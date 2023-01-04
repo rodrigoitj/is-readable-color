@@ -7,7 +7,7 @@ A npm module that determines if a text color is readable in contrast with a back
 To use this function, you can call it like this:
 
 ```javascript
-const isReadableColor = require('is-readable-color');
+import isReadableColor from "is-readable-color";
 const textColor = '#000000'; // Black
 const bgColor = '#ffffff'; // White
 
