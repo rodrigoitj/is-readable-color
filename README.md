@@ -2,11 +2,11 @@
 
 A npm module that determines if a text color is readable in contrast with a background color
 
-# Usage 
+## Usage
 
 To use this function, you can call it like this:
 
-```
+```javascript
 const isReadableColor = require('is-readable-color');
 const textColor = '#000000'; // Black
 const bgColor = '#ffffff'; // White
@@ -20,4 +20,6 @@ if (isReadableColor(textColor, bgColor)) {
 
 Also a text size optional parameter is accepted, default is 18
 
-```isReadableColor(textColor, bgColor, 12)```
+```javascript
+isReadableColor(textColor, bgColor, 12)
+```
